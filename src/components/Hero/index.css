@@ -1,0 +1,9 @@
+.hero {
+  display: flex;
+  justify-content: space-between;
+}
+.image-section-right > img {
+  width: 276px;
+  height: 445px;
+  background: transparent;
+}
