@@ -6,6 +6,9 @@
 html {
   font-size: 62.5%;
 }
+.tGray {
+  color: #c8c2bc;
+}
 .text-color {
   color: #323232;
 }
@@ -18,15 +21,8 @@ a {
   text-decoration: none;
 }
 
-@media screen and (max-width: 996px) {
-  html {
-    font-size: 33.3%;
-  }
-}
-
 body {
-  background: url('https://photos.google.com/search/_tra_/photo/AF1QipPhVteyRLTtN5qh35qM470t44LEVulTmj5NjDp3')
-    rgba(238, 238, 238);
+  background: url('./assets/images/bg-f2f2f2.jpg');
   background-repeat: repeat;
 }
 
@@ -46,4 +42,31 @@ body {
 .font-25 {
   font-size: 2.5rem;
   font-weight: 700;
+}
+
+.font16 {
+  font-size: 1.6rem;
+}
+.font14 {
+  font-size: 1.4rem;
+}
+.font-500 {
+  font-weight: 500;
+}
+.mtb-10 {
+  margin: 2rem 01rem;
+}
+.font13 {
+  font-size: 1.3rem;
+  font-weight: 500;
+}
+.skillColor {
+  color: #9a4f05;
+  font-weight: 500;
+}
+
+@media screen and (max-width: 996px) {
+  html {
+    font-size: 33.3%;
+  }
 }

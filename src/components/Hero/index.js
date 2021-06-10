@@ -2,6 +2,7 @@ import React from 'react';
 import './index.css';
 import data from '../../config.json';
 import Button from '../../UI/Button';
+import me from '../../assets/images/prashant.png';
 
 /**
  * @author
@@ -33,7 +34,7 @@ const Hero = (props) => {
 
       <div className="image-section-right">
         <div className="">
-          <img src="./assets/images/prashant.png" alt="" />
+          <img src={me} alt="coverpic" />
         </div>
       </div>
     </div>
