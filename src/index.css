@@ -1,14 +1,49 @@
 * {
   margin: 0;
   padding: 0;
+  font-family: 'Ubuntu', sans-serif;
+}
+html {
+  font-size: 62.5%;
+}
+.text-color {
+  color: #323232;
+}
+.hero-heading {
+  font-size: 1.5rem;
+  font-weight: 400;
+}
+a {
+  list-style: none;
+  text-decoration: none;
+}
+
+@media screen and (max-width: 996px) {
+  html {
+    font-size: 33.3%;
+  }
 }
 
 body {
-  background: url(./assets/images/bg-f2f2f2.jpg);
+  background: url('https://photos.google.com/search/_tra_/photo/AF1QipPhVteyRLTtN5qh35qM470t44LEVulTmj5NjDp3')
+    rgba(238, 238, 238);
   background-repeat: repeat;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.font-14 {
+  font-size: 1.4rem;
+}
+
+.primaryColor {
+  color: #00ead3;
+}
+.ls1 {
+  letter-spacing: 1px;
+}
+.font-600 {
+  font-weight: 600;
+}
+.font-25 {
+  font-size: 2.5rem;
+  font-weight: 700;
 }

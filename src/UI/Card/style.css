@@ -1,0 +1,6 @@
+.card-body {
+  background-color: #ffffffff;
+  width: 100%;
+  box-sizing: border-box;
+  border-radius: 2px;
+}
