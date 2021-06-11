@@ -1,0 +1,21 @@
+.socail-connect {
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+  background: #ffffffff !important;
+  width: 14.7rem !important;
+  height: 3rem !important;
+}
+.socail-links > .anticon > svg {
+  width: 2.5rem !important;
+  height: 2rem !important;
+  margin: 0rem 0.7rem;
+  color: #000000;
+  /* border: 0.5rem solid #ffffffff; */
+
+  transition: transfrom 0.2s ease-out, box-shadow 0.2s ease-out;
+}
+.socail-links > .anticon > svg :hover {
+  transform: scale(1.1);
+  box-shadow: 0 0 0.5rem 0 #777;
+}

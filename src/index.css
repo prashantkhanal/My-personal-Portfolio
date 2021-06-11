@@ -31,7 +31,7 @@ body {
 }
 
 .primaryColor {
-  color: #00ead3;
+  color: #00f3db;
 }
 .ls1 {
   letter-spacing: 1px;
@@ -64,7 +64,16 @@ body {
   color: #9a4f05;
   font-weight: 500;
 }
-
+.mlr-10 {
+  margin: 0rem 1rem;
+}
+.font12 {
+  font-size: 1.2rem;
+  font-weight: 500;
+}
+.font10 {
+  font-size: 1rem;
+}
 @media screen and (max-width: 996px) {
   html {
     font-size: 33.3%;
