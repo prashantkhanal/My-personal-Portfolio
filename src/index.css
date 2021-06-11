@@ -74,6 +74,10 @@ body {
 .font10 {
   font-size: 1rem;
 }
+.font18 {
+  font-size: 1.8rem;
+  font-weight: 700;
+}
 @media screen and (max-width: 996px) {
   html {
     font-size: 33.3%;

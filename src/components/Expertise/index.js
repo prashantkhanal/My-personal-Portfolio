@@ -7,12 +7,13 @@ import MediumHeading from '../../UI/MediumHeading';
 import me from '../../assets/images/prashant.png';
 import './style.css';
 import Socail from '../../UI/Socail';
+import { expertise, expertisePercentage } from '../../config.json';
 
 /**
  * @author
  * @function Expertise
  **/
-const percentage = 70;
+
 const Expertise = (props) => {
   return (
     <div className="container mt-5">
@@ -40,15 +41,15 @@ const Expertise = (props) => {
               <div style={{ width: '8rem', height: '8rem' }}>
                 {/* <div ></div> */}
                 <CircularProgressbar
-                  value={percentage}
-                  text={`${percentage}%`}
+                  value={expertisePercentage}
+                  text={`${expertisePercentage}%`}
                   styles={buildStyles({
                     textColor: colors.primaryColor,
                     pathColor: '#54e346',
                   })}
                 />
               </div>
-              <h2 className="mlr-10 text-color">Development</h2>
+              <h2 className="mlr-10 text-color">{expertise}</h2>
             </div>
             <p className="font13 mt-3">
               Javascript is the most popular lanahues in the world

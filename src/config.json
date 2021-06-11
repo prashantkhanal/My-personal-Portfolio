@@ -2,5 +2,14 @@
   "name": "Prashant Khanal",
   "professional": "software developer",
   "jobspec": "fullstack developer using js",
-  "img": "https://files.fm/u/prbmqsemj"
+  "img": "https://files.fm/u/prbmqsemj",
+  "email": "prashantkhanal32@gmail.com",
+  "becholarCollegeName": "sunway international college",
+  "becholarSubject": "becholar in computer science",
+  "becholarDecs": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus, deleniti.",
+  "plus2CollegeName": "texas international college",
+  "plus2Dec": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus, deleniti.",
+  "plus2Subject": "science",
+  "expertisePercentage": "70",
+  "expertise": "Development"
 }

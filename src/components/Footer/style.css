@@ -1,0 +1,19 @@
+.footer-chat-logo > .anticon > svg {
+  width: 3rem !important;
+  height: 3rem !important;
+  margin: 0rem 0.7rem;
+  color: #3cafa3;
+  /* border: 0.5rem solid #ffffffff; */
+
+  transition: transfrom 0.2s ease-out, box-shadow 0.2s ease-out;
+  cursor: pointer;
+}
+.footer-list > p {
+  padding: 0px 2rem;
+  color: #757575;
+  font-size: 1rem;
+  cursor: pointer;
+}
+.footer {
+  margin-top: 8rem;
+}
